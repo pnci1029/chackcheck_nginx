@@ -143,6 +143,6 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/gradle,java,intellij+allapplication.yml
-application.yml
+#application.yml
 src/main/resources/application.ymlpasApplication.yml
 application.properties
