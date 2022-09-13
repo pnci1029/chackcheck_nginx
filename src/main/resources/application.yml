@@ -1,6 +1,6 @@
 jasypt:
   new:
-    password: ${jasypt_realPassword}
+    password: ${jasypt_realPasswords}
   encryptor:
     bean: jasyptStringEncryptor
 
