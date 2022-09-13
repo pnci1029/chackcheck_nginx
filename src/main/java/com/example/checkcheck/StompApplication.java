@@ -13,6 +13,10 @@ import javax.persistence.EntityManager;
 @SpringBootApplication
 public class StompApplication {
 
+	public static final String APPLICATION_LOCATIONS = "spring.config.location="
+			+ "classpath:application.yml,"
+			+ "/app/config/springboot-webservice/real-application.yml";
+
 	public static void main(String[] args) {
 		SpringApplication.run(StompApplication.class, args);
 
