@@ -24,6 +24,11 @@ public class StompApplication {
 				.run(args);
 
 	}
+
+//	public static void main(String[] args) {
+//		SpringApplication.run(StompApplication.class, args);
+//
+//	}
 	@Bean
 	JPAQueryFactory jpaQueryFactory(EntityManager em) {
 		return new JPAQueryFactory(em);
