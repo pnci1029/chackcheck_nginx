@@ -12,8 +12,7 @@ public class SimpleController {
     @GetMapping("/")
     public String simpleCon() {
 
-        String name = SecurityContextHolder.getContext().getAuthentication().getName();
-        return "하이이하";
+        return "하이이하2";
 
     }
 }
