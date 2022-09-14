@@ -15,4 +15,9 @@ public class SimpleController {
         return "하이이하2";
 
     }
+    @GetMapping("/health")
+    public String checkHealth() {
+        return "healthy";
+    }
+
 }
