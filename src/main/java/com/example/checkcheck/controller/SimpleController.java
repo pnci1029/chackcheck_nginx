@@ -12,7 +12,7 @@ public class SimpleController {
     @GetMapping("/")
     public String simpleCon() {
 
-        return "하이이하1";
+        return "하이이하122222222222222222";
 
     }
     @GetMapping("/health")
