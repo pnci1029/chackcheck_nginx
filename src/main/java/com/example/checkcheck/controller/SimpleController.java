@@ -13,7 +13,7 @@ public class SimpleController {
     public String simpleCon() {
 
         String name = SecurityContextHolder.getContext().getAuthentication().getName();
-        return "하이";
+        return "하이이하";
 
     }
 }
